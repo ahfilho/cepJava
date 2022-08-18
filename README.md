@@ -16,7 +16,7 @@ No momento não é preciso autenticação para fazer requisições a esta API.
 Criar imagem do banco: docker pull postgres
 Listar imagens: docker images
 Criar o container e exportar a porta para ser usada:
-docker run --name nome-do-banco -e POSTGRES_PASSWORD=suaSeha -d -p 5432:5432 postgres
+docker run --name nome-do-banco -e POSTGRES_PASSWORD=suaSeha -d -p 5431:5432 postgres
 Para saber o ID do container criado: docker ps -a
 Depois entre no bash: docker exec -it ''id do container'' bash
 Entrar no postgres: psql -U postgres
