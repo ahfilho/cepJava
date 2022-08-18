@@ -5,4 +5,3 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface SigaRepository extends JpaRepository<CepOrigem, Long> {
 }
-git add
