@@ -30,6 +30,19 @@ Estou usando o Postman para testes automatizados.
 Error Codes
 200 – OK
 
+### requisiçoes POST 
+
+localhost:9090/siga
+
+
+{
+"nomeDestinatario":"fulano de tal",
+"cepOrigem":55660000,
+"cepDestino":73130900,
+"peso":1
+}
+
+
 Requisição bem-sucedida. Irá retornar o resultado da função associada à requisição.
 
 201– Created
